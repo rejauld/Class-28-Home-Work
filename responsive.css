@@ -1,0 +1,137 @@
+
+@media(min-width: 1400px) {}
+
+
+@media(max-width: 1399px) {
+    .mid-content {
+        padding-left: 20px;
+        padding-right: 20px;
+        box-sizing: border-box;
+    }
+    .header-btn {
+        padding: 8px 12px;
+    }
+}
+
+
+@media(max-width: 1200px) {
+    .header-btn {
+        padding: 8px 10px;
+        font-size: 16px;
+    }
+
+    .app-content p {
+        font-size: 16px;
+    }
+
+    .Service-Section {
+        padding: 60px 0;
+    }
+
+    .service-box {
+        margin-left: 30px;
+        padding: 40px;
+
+    }
+
+    .s-icon {
+        min-height: 150px;
+        font-size: 30px;
+    }
+
+    .mid-content {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .table-item-content {
+        padding: 35px;
+    }
+
+    .table-item-content ul li {
+        margin: 25px 0;
+        font-size: 16px;
+    }
+
+}
+
+/* Only tab & mobile menu show the menu tab but others display will be hide */
+.primary-menu span {
+    display: none;
+}
+
+
+
+@media(max-width: 992px) {
+    .header-logo {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .header-logo img {
+        float: inherit;
+        height: 50px;
+    }
+
+    .header-logo span {
+        font-size: 22px;
+        position: relative;
+        top: -14px;
+    }
+
+    .header-button {
+        position: absolute;
+        width: 200px;
+        right: 20px;
+        text-align: right;
+        top: 75px;
+    }
+
+    .header-menu {
+        width: 100%;
+    }
+
+    .primary-menu span {
+        font-size: 40px;
+        color: #6278df;
+        cursor: pointer;
+        display: block;
+    }
+
+
+    /* Responsive Mobile Menu */
+
+    .primary-menu ul {
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+
+    .primary-menu .mobile-menu-check:checked ~ ul{
+        opacity: 1;
+        visibility:visible;
+        height: 100%;
+    }
+
+    .primary-menu ul li{
+        display: block;
+    }
+
+    .primary-menu ul li ul {
+        position: absolute;
+        left: 128px;
+        top: 24%;
+    }
+}
+
+
+@media(max-width: 768px) {
+
+}
+
+
+
+@media(max-width: 576px) {
+
+}
